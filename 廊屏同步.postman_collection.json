@@ -1,0 +1,33 @@
+{
+	"info": {
+		"_postman_id": "22c4162b-c912-483a-b8a6-15db4d96c0f1",
+		"name": "廊屏同步",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5808552"
+	},
+	"item": [
+		{
+			"name": " http://192.168.10.158:8081/etl/syncAllData",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://192.168.10.158:8081/etl/syncAllData",
+					"protocol": "http",
+					"host": [
+						"192",
+						"168",
+						"10",
+						"158"
+					],
+					"port": "8081",
+					"path": [
+						"etl",
+						"syncAllData"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
